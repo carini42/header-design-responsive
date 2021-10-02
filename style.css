@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.navbar {
+    display: inline-flex;
+    color: white;
+    width: 100%;
+}
+
+.navbar .logo {
+    margin: 20px;
+    padding: 10px;
+}
+
+.navbar .logo h1 {
+    color: white;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+.navbar .item {
+    display: flex;
+}
+
+.navbar .item ul li {
+    margin: 20px;
+    display: inline-flex;
+    padding: 20px;
+}
+
+.navbar .item ul li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+
+}
